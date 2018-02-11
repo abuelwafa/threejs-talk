@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+p{
+    font-size: 6em;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: sans-serif;
+    pointer-events: none;
+    user-select: none;
+}
+
+p.score span.x-score{
+    float: left;
+    color: blue;
+    margin-left: 0.2em;
+}
+
+p.score span.o-score{
+    float: right;
+    color: red;
+    margin-right: 0.2em;
+}
